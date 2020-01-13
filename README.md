@@ -47,7 +47,7 @@
   - AWS 프로파일 정보와 SQS에서 `fifo`옵션으로 만든 Queue URL, 그리고 S3 버킷명을 입력합니다.
 
     ```.env
-    # Aws configuration
+    # AWS configuration
     ACCESS_KEY_ID=<ACCESS_KEY_ID>
     SECRET_ACCESS_KEY=<SECRET_ACCESS_KEY>
     REGION=<REGION>

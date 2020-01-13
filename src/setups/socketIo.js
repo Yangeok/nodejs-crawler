@@ -1,10 +1,7 @@
 const extractor = require('setups/extractor')
 const moment = require('moment')
 const uuidv4 = require('uuid/v4')
-const aws = require('aws-sdk')
 const { computeCategory, computeChannel } = require('utils/computeCol')
-
-aws.config.loadFromPath('aws.config.json')
 
 const socketServer = async app => {
   const socketio = require('socket.io')(app)
