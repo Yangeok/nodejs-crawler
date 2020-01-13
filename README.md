@@ -105,7 +105,8 @@
 ![](./docs/assets/images/02.jpg)
 `keyword`, `channel`, `job scheduling`, `start date`, `end date`을 설정합니다.
 
-![](./docs/assets/images/03.jpg)
+<img src="./docs/assets/images/03.jpg" width="300">
+
 `Send`를 클릭하면 위와 같은 alert창이 발생합니다.
 
 ![](./docs/assets/images/04.jpg)
