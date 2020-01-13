@@ -100,9 +100,11 @@
 개발모드와의 차이점은 `healess`옵션이 켜졌냐 꺼졌냐의 차이만 있습니다. `80`번 포트를 사용합니다.
 
 <img src="./docs/assets/images/01.jpg" width="500">
+
 `Configure`를 눌러 설정창을 띄웁니다.
 
 <img src="./docs/assets/images/02.jpg" width="500">
+
 `keyword`, `channel`, `job scheduling`, `start date`, `end date`을 설정합니다.
 
 <img src="./docs/assets/images/03.jpg" width="500">
@@ -110,6 +112,7 @@
 `Send`를 클릭하면 위와 같은 alert창이 발생합니다.
 
 <img src="./docs/assets/images/04.jpg" width="500">
+
 추출이 완료되면 `Result`블록 아래서 결과물을 직접 다운받을 수 있습니다. 복수의 파일이라면 `Download all`을 통해 받을 수 있으며, 단수의 파일이라면 파일 다운로드 링크를 클릭하면 받을 수 있습니다. `Clear list`를 통해 리스트가 꽉차면 리스트를 비울 수 있습니다.
 
 #### 개발 모드
