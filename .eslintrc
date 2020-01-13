@@ -1,0 +1,15 @@
+{
+  "env": {
+    "es6": true,
+    "node": true, // process 객체 사용
+    "browser": true // window, document 객체 사용
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"], // prettier와 연동
+  "rules": {
+    "no-path-concat": [
+      "error" // __dirname 에러 disabled
+    ],
+    "use-isnan": 0, // NaN 타입검증 에러 disabled
+    "no-useless-escape": 0 // 정규식 에러 disables
+  }
+}

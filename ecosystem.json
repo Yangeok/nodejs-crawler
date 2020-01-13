@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "batch",
+      "script": "src/index.js",
+      "watch": true,
+      "ignore_watch": ["outputs", "node_modules"],
+      "max_memory_restart": "3500M",
+      "env": {
+        "NODE_PATH": "src",
+        "NODE_ENV": "batch"
+      }
+    }
+  ]
+}
