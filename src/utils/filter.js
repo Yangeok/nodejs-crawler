@@ -10,5 +10,6 @@ const filter = text =>
     .replace(/@+/g, '')
     .replace(/(<([^>]+)>)/gi, '')
     .replace('(adsbygoogle = window.adsbygoogle || []).push({});', '') // remove adsense script
+    .replace('&nbsp;', '')
 
 module.exports = filter
