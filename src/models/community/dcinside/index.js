@@ -61,7 +61,7 @@ const goToPostPageAndGetInfo = async (page, data, link) => {
       .substring(0, 10),
     title: filter($('h3 > span.title_subject').text()),
     username: filter($('div.fl > span.nickname > em').text()),
-    content: filter($('div.inner.clear > div.writing_view_box').text()),
+    content: await page.evaluate(() => [...document.querySelectorAll('div.inner.clear > div.writing_view_box .write_div div')].pop().innerHTML),
     click: filter(
       $('div.fr > span.gall_count')
         .text()
