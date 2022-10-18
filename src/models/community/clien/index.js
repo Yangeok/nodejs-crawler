@@ -46,12 +46,12 @@ const goToPostPageAndGetInfo = async (page, data, link) => {
           .querySelectorAll('.post_author > span:nth-child(1)')[0]
           .innerText.replace(/\s/g, '')
           .substring(0, 10),
-        title: document.querySelectorAll('h3 > span')[0].innerText,
+        title: document.querySelectorAll('.post_subject > span')[0].innerText,
         username: document
           .querySelectorAll('div.post_info > div.post_contact > span > span')[0]
           .innerText.replace(/\s/g, ''),
         content: document
-          .querySelectorAll('.post_article.fr-view')[0]
+          .querySelectorAll('.post_article')[0]
           .innerText.replace(/\n/g, '')
           .replace(/\,/g, ''),
         click: document
